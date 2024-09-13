@@ -42,3 +42,10 @@ body {
   justify-content: center;
   margin: 10% auto;
 }
+
+#back-btn,
+#next-btn {
+  width: 50px;
+  cursor: pointer;
+  margin: 40px;
+}
