@@ -6,3 +6,7 @@ scrollContainer.addEventListener("wheel", (evt) => {
   evt.preventDefault();
   scrollContainer.scrollLeft += evt.deltaY;
 })
+
+nextBtn.addEventListener("click", () => {
+  scrollContainer.scrollLeft += 900;
+})
